@@ -26,5 +26,8 @@ public class SCExe1 {
         {
             System.out.println("Number is zero");
         }
+
     }
+
 }
+
