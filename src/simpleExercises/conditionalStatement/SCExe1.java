@@ -1,10 +1,11 @@
 package simpleExercises.conditionalStatement;
 
 import java.util.Scanner;
+/*
+Write a Java program to test a number is positive or negative.
 
-
-/**
- * Created by Johny on 27.07.2017.
+Test Data
+Input number: 35
  */
 public class SCExe1 {
     public static void main(String[] args)
