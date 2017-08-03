@@ -7,7 +7,7 @@ Write a Java program to test a number is positive or negative.
 Test Data
 Input number: 35
  */
-public class SCExe1 {
+public class CSExe1 {
     public static void main(String[] args)
     {
         Scanner in = new Scanner(System.in);
