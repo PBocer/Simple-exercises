@@ -11,27 +11,25 @@ Input the first number: 25
 Input the Second number: 37
 Input the third number: 29
  */
-public class MeExe1 {
+public class MethodExe1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input first number ");
-        double x = x.nextDouble();
+        double x = scanner.nextDouble();
         System.out.println("Input second sumber ");
-        double y = y.nextDouble();
+        double y = scanner.nextDouble();
         System.out.println("Input third number ");
-        double z = z.nextDouble();
+        double z = scanner.nextDouble();
 
         System.out.println("The smallest value is " + smallest(x, y, z)+"\n" );
 
     }
 
     public static double smallest(double x, double y, double z) {
-        
-    }
 
-    {
 
-        return Math.min(Math.min(x,y)z);
+
+        return Math.min(Math.min(x,y), z);
     }
 
 
