@@ -3,7 +3,7 @@ package simpleExercises.Arrays;
 /**
  Write a Java program to test if an array contains a specific value.
  */
-public class Array {
+public class Array5 {
 
     public static boolean contains(int[]arr, int item){
         for(int n:arr ){
