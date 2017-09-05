@@ -1,6 +1,9 @@
 package simpleExercises.method;
 
 import java.util.Scanner;
+/*
+Write a Java method to count all vowels in a string.
+ */
 
 public class MethodExe4 {
     public static void main(String[] args) {
