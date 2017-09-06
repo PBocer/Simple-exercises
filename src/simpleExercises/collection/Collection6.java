@@ -21,6 +21,6 @@ public class Collection6 {
         System.out.println(stringList);
 
         stringList.remove(2);
-        System.out.println(stringList);
+        System.out.println("After removing third element from the list:\n"+stringList);
     }
 }
