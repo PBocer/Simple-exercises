@@ -1,0 +1,38 @@
+package simpleExercises.collection;
+
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+/*
+Write a Java program to copy one array list into another.
+ */
+public class Collection9 {
+    public static void main(String[] args) {
+
+        List<String> List1= new ArrayList<String>();
+        List1.add("1");
+        List1.add("2");
+        List1.add("3");
+        List1.add("4");
+        System.out.println("List 1: " + List1);
+
+        List<String> List2= new ArrayList<String>();
+        List2.add("A");
+        List2.add("B");
+        List2.add("C");
+        List2.add("D");
+        System.out.println("List 2: " + List2);
+
+        Collections.copy(List1, List2);
+        System.out.println("Copy List 1 to List 2,\n After copy ");
+        System.out.println("List 1 : "+ List1);
+        System.out.println("List 2 : "+ List2);
+
+
+
+
+
+    }
+}
