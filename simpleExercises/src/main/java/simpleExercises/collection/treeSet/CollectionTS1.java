@@ -8,7 +8,7 @@ Write a Java program to create a new tree set, add some colors (string) and prin
  */
 public class CollectionTS1 {
     public static void main(String[] args) {
-        TreeSet<String>tset= new TreeSet<>();
+        TreeSet<String>tset= new TreeSet<String>();
         tset.add("Red");
         tset.add("Blue");
         tset.add("Pink");

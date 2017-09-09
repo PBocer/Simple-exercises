@@ -8,7 +8,7 @@ Write a Java program to insert the specified element at the end of a linked list
 public class CollectionLL8 {
     public static void main(String[] args) {
 
-        LinkedList<String> stringList= new LinkedList<>();
+        LinkedList<String> stringList= new LinkedList<String>();
         stringList.add("Red");
         stringList.add("White");
         stringList.add("Black");

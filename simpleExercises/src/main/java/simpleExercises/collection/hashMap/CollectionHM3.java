@@ -7,8 +7,8 @@ Write a Java program to copy all of the mappings from the specified map to anoth
  */
 public class CollectionHM3 {
     public static void main(String[] args) {
-        HashMap<Integer, String>hashmap1= new HashMap<>();
-        HashMap<Integer, String>hashmap2= new HashMap<>();
+        HashMap<Integer, String>hashmap1= new HashMap<Integer, String>();
+        HashMap<Integer, String>hashmap2= new HashMap<Integer, String>();
         hashmap1.put(1,"Red");
         hashmap1.put(2,"Green");
         hashmap1.put(3,"White");

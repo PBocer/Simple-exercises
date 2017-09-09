@@ -5,7 +5,7 @@ import java.util.HashSet;
 
 public class CollectionHS1 {
     public static void main(String[] args) {
-        HashSet<String> hset= new HashSet<>();
+        HashSet<String> hset= new HashSet<String>();
         hset.add("Black");
         hset.add("Red");
         hset.add("Green");

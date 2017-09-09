@@ -7,7 +7,7 @@ Write a Java program to insert the specified element at the front of a linked li
  */
 public class CollectionLL7 {
     public static void main(String[] args) {
-        LinkedList<String> stringList= new LinkedList<>();
+        LinkedList<String> stringList= new LinkedList<String>();
         stringList.add("Red");
         stringList.add("Green");
         stringList.add("Black");

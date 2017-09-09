@@ -8,7 +8,7 @@ Write a Java program to insert elements into the linked list at the first and la
 public class CollectionLL6 {
     public static void main(String[] args) {
 
-        LinkedList<String>stringList= new LinkedList<>();
+        LinkedList<String>stringList= new LinkedList<String>();
         stringList.add("Red");
         stringList.add("Blue");
         stringList.add("Pink");

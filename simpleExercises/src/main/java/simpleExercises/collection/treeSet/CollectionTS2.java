@@ -9,7 +9,7 @@ Write a Java program to iterate through all elements in a tree set.
 public class CollectionTS2 {
     public static void main(String[] args) {
 
-        TreeSet<String> tset= new TreeSet<>();
+        TreeSet<String> tset= new TreeSet<String>();
         tset.add("Red");
         tset.add("Black");
         tset.add("White");

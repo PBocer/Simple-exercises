@@ -8,7 +8,7 @@ Write a Java program to empty an hash set.
 public class CollectionHS4 {
     public static void main(String[] args) {
 
-        HashSet<String>hset= new HashSet<>();
+        HashSet<String>hset= new HashSet<String>();
         hset.add("Red");
         hset.add("Pink");
         hset.add("Green");

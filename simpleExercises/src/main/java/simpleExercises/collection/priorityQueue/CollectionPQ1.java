@@ -9,7 +9,7 @@ import java.util.PriorityQueue;
 
 public class CollectionPQ1 {
     public static void main(String[] args) {
-        PriorityQueue<String>stronglist= new PriorityQueue<>();
+        PriorityQueue<String>stronglist= new PriorityQueue<String>();
         stronglist.add("Red");
         stronglist.add("Black");
         stronglist.add("White");

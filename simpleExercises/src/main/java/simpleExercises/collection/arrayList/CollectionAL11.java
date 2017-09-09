@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Collection11 {
+public class CollectionAL11 {
     public static void main(String[] args) {
 
         List<String>stringList= new ArrayList<String>();

@@ -7,7 +7,7 @@ Write a Java program to check whether a map contains key-value mappings (empty) 
  */
 public class CollectionHM5 {
     public static void main(String[] args) {
-        HashMap<Integer, String>hashmap= new HashMap<>();
+        HashMap<Integer, String>hashmap= new HashMap<Integer, String>();
         hashmap.put(1, "Red");
         hashmap.put(1, "Blue");
         hashmap.put(1, "Orange");

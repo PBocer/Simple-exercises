@@ -9,7 +9,7 @@ Write a Java program to insert a given element into a priority queue.
 public class CollectionPQ4 {
     public static void main(String[] args) {
 
-        PriorityQueue<String>stringlist= new PriorityQueue<>();
+        PriorityQueue<String>stringlist= new PriorityQueue<String>();
         stringlist.add("Green");
         stringlist.add("Red");
         stringlist.add("Blue");

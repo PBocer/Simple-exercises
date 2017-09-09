@@ -8,7 +8,7 @@ Write a Java program to test a hash set is empty or not.
  */
 public class CollectionHS5 {
     public static void main(String[] args) {
-        HashSet<String>hset= new HashSet<>();
+        HashSet<String>hset= new HashSet<String>();
         hset.add("Green");
         hset.add("Black");
         hset.add("Blue");

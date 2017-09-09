@@ -9,7 +9,7 @@ Write a Java program to iterate through all elements in priority queue.
 public class CollectionPQ2 {
     public static void main(String[] args) {
 
-        PriorityQueue<String>strinlist= new PriorityQueue<>();
+        PriorityQueue<String>strinlist= new PriorityQueue<String>();
         strinlist.add("Black");
         strinlist.add("Red");
         strinlist.add("Green");

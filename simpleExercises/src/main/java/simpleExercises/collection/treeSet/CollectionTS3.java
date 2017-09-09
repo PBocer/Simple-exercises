@@ -7,13 +7,13 @@ Write a Java program to add all the elements of a specified tree set to another 
  */
 public class CollectionTS3 {
     public static void main(String[] args) {
-        TreeSet<String>tset= new TreeSet<>();
+        TreeSet<String>tset= new TreeSet<String>();
         tset.add("Red");
         tset.add("Pink");
         tset.add("Orange");
         System.out.println("First list: "+tset);
 
-        TreeSet<String>tset2= new TreeSet<>();
+        TreeSet<String>tset2= new TreeSet<String>();
         tset2.add("Blue");
         tset2.add("Green");
         tset2.add("Black");

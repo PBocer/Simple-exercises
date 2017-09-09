@@ -8,7 +8,7 @@ Write a Java program to remove all the mappings from a map.
 public class CollectionHM4 {
     public static void main(String[] args) {
 
-        HashMap<Integer, String>hashmap= new HashMap<>();
+        HashMap<Integer, String>hashmap= new HashMap<Integer, String>();
         hashmap.put(1, "Red");
         hashmap.put(2, "Blue");
         hashmap.put(3, "White");
