@@ -35,4 +35,3 @@ public class Array11 {
         printArray(arr, 6);
     }
 }
-/*This article is contributed by Devesh Agrawal*/
