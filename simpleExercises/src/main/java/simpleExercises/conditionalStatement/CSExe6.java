@@ -37,6 +37,7 @@ public class CSExe6 {
             System.out.println("They are the same up to three decimal places");
         } else {
             System.out.println("They are different");
+
         }
     }
 }
