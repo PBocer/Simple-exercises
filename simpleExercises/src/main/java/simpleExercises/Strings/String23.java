@@ -13,5 +13,8 @@ public class String23 {
 
         boolean match1= str1.regionMatches(0,str2,28,8);
         boolean match2=str1.regionMatches(9, str2, 9, 8);
+
+        System.out.println(match1);
+        System.out.println(match2);
     }
 }
