@@ -1,4 +1,4 @@
-package simpleExercises.designPattern;
+package simpleExercises.designPattern.Observer;
 
 import simpleExercises.designPattern.Observer.notification.InternetNews;
 import simpleExercises.designPattern.Observer.notification.RadioNews;
