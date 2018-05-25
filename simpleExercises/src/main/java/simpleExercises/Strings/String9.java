@@ -14,6 +14,7 @@ public class String9 {
         String str2 = "Example.com";
         CharSequence cs="example.com";
 
+
         System.out.println("Comparing "+str1+"and "+cs+":"+ str1.contentEquals(cs));
         System.out.println("Compraing "+str2+" and"+ cs +" :" + str2.contentEquals(cs));
 
